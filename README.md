@@ -80,7 +80,7 @@ func myFunc() {
             case .iPodTouch6Gen: print("It's a iPod touch generation 6")
 
             /*** Simulator ***/
-            case .Simulator:    print("It's a Simulator")
+            case .simulator:    print("It's a Simulator")
 
             /*** Unknown ***/
             default:            print("It's an unknown device")
@@ -93,13 +93,13 @@ func myFunc() {
 func myFunc() {
         /*** Display the device screen size ***/
         switch Device.size() {
-            case .Screen3_5Inch:  print("It's a 3.5 inch screen")
-            case .Screen4Inch:    print("It's a 4 inch screen")
-            case .Screen4_7Inch:  print("It's a 4.7 inch screen")
-            case .Screen5_5Inch:  print("It's a 5.5 inch screen")
-            case .Screen7_9Inch:  print("It's a 7.9 inch screen")
-            case .Screen9_7Inch:  print("It's a 9.7 inch screen")
-            case .Screen12_9Inch: print("It's a 12.9 inch screen")
+            case .screen3_5Inch:  print("It's a 3.5 inch screen")
+            case .screen4Inch:    print("It's a 4 inch screen")
+            case .screen4_7Inch:  print("It's a 4.7 inch screen")
+            case .screen5_5Inch:  print("It's a 5.5 inch screen")
+            case .screen7_9Inch:  print("It's a 7.9 inch screen")
+            case .screen9_7Inch:  print("It's a 9.7 inch screen")
+            case .screen12_9Inch: print("It's a 12.9 inch screen")
             default:              print("Unknown size")
         }
 }
@@ -113,7 +113,7 @@ func myFunc() {
             case .iPod:         print("It's an iPod")
             case .iPhone:       print("It's an iPhone")
             case .iPad:         print("It's an iPad")
-            case .Simulator:    print("It's a Simulated device")
+            case .simulator:    print("It's a Simulated device")
             default:            print("Unknown device type")
         }
 }
